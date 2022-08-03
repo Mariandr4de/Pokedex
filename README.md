@@ -47,7 +47,7 @@ Ela é uma API pública, bastante utilizada para aplicações focadas em aprendi
   Loading em todas as páginas
 - Responsividade Funcional
 ## 🔗Link Surge  
-- http://pokedex.jmt.surge.sh
+- http://pokebattle-pokedex.surge.sh
 
 ## 💻Como Rodar o Projeto Localmente
 
