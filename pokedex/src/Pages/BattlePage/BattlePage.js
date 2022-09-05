@@ -43,6 +43,7 @@ function BattlePage() {
     pokeUser,
     opponent,
     choiceStats,
+    chosenStat,
     verifyWhoWon,
     changeRound,
   } = useContext(GlobalContext);
@@ -113,8 +114,8 @@ function BattlePage() {
                       <ProgressBarOut>
                         {
                           <ProgressButton
-                            color="coral"
-                            bar={userStats[1]}
+                          color="coral"
+                          bar={chosenStat}
                           />
                         }
                       </ProgressBarOut>

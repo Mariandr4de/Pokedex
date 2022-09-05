@@ -68,13 +68,14 @@ const GlobalState = (props) => {
   const [userPoints, setUserPoints] = useState(0);
   const [rounds, setRounds] = useState(1);
   const [choiceStats, setChoiceStats] = useState();
+  const [chosenStat, setChosenStat] = useState();
   const [choiceMade, setChoiceMade] = useState(false);
   const [whoWon, setWhoWon] = useState();
 
   useEffect(() => {
     setChoiceStats([]);
     setChoiceMade(false);
-    setWhoWon("");
+    setWhoWon();
 
     const pokeUserId = Math.floor(Math.random() * 899) + 1;
     getPokeUser(pokeUserId);
@@ -134,10 +135,11 @@ const GlobalState = (props) => {
 
   const verifyWhoWon = (index, chosenStat) => {
     setChoiceStats([chosenStat, opponentStats[index]]);
+    setChosenStat(userStats[index]);
     setChoiceMade(true);
 
-    const opponent = parseInt(opponentStats[index]);
-    const user = parseInt(userStats[index]);
+    const opponent = (opponentStats[index]);
+    const user = (userStats[index]);
 
     if (opponent > user) {
       setWhoWon("Você perdeu a rodada!");
@@ -195,6 +197,7 @@ const GlobalState = (props) => {
         opponent,
         userStats,
         choiceStats,
+        chosenStat,
         verifyWhoWon,
         changeRound,
       }}
