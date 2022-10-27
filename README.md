@@ -5,14 +5,6 @@ O projeto consiste na criação de uma Pokedex online. A ideia é que usemos a P
 Ela é uma API pública, bastante utilizada para aplicações focadas em aprendizado de programação.
 <h4/>
 
-<h3 align="center"> Sumário  </h3>
-
-<h3 align="center"> 
-
-[🔗Surge](#link-surge) | [💻Projeto](como-rodar-o-projeto-localmente) | [📚Bibliotecas](#bibliotecas-utilizadas) | 
-[🛠️Tecnologias](#tecnologias-utilizadas) | [👩🏻‍💻Desenvolvedoras](#tecnologias-utilizadas) | [🖥️📱Imagens](#imagens) 
-
-<h3/>
 
 ## ✔O que funciona
 - **Home**
@@ -75,22 +67,6 @@ Por padrão a aplicação rodará localmente na porta 3000.
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> 
 </div>
 
-<h2 align="center"> 
-
- 👩🏻‍💻Desenvolvedoras 
-
-</h2>
-<table align="center">
-  <tr>
-  <td align="center"><a href="https://github.com/JilMayumiMoutinho"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104766367?v=4" width="100px;" alt=""/><br /><sub><b>Jil Mayumi Moutinho</b></sub></a>
-  <br />
-    </td> <td align="center"><a href="https://github.com/Mariandr4de"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104591781?v=4" width="100px;" alt=""/><br /><sub><b>Mariana Andrade</b></sub></a>
-    <br />
-    </td> <td align="center"><a href="https://github.com/TalitaMiguel"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62106501?v=4" width="100px;" alt=""/><br /><sub><b>Talita Leonardo Miguel</b></sub></a><br />
-    </td> 
-  </tr>
-</table>
-
 ## 🖥📱Imagens
 Home
 ![printspokedex (1)](https://user-images.githubusercontent.com/104591781/181138149-825eee71-bb34-47ac-a463-c376be398399.png)
@@ -115,3 +91,19 @@ Escolhendo atributo
 ![printspokedex (9)](https://user-images.githubusercontent.com/104591781/181138452-bfe31ae6-0dbb-4397-ae47-94af36618b0b.png)
 Após 5 Rounds
 ![printspokedex (10)](https://user-images.githubusercontent.com/104591781/181138490-bdb57d0d-5f5b-4b05-b00f-74d8883537b4.png)
+
+<h2 align="center"> 
+
+ 👩🏻‍💻Desenvolvedoras 
+
+</h2>
+<table align="center">
+  <tr>
+  <td align="center"><a href="https://github.com/JilMayumiMoutinho"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104766367?v=4" width="100px;" alt=""/><br /><sub><b>Jil Mayumi Moutinho</b></sub></a>
+  <br />
+    </td> <td align="center"><a href="https://github.com/Mariandr4de"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104591781?v=4" width="100px;" alt=""/><br /><sub><b>Mariana Andrade</b></sub></a>
+    <br />
+    </td> <td align="center"><a href="https://github.com/TalitaMiguel"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62106501?v=4" width="100px;" alt=""/><br /><sub><b>Talita Leonardo Miguel</b></sub></a><br />
+    </td> 
+  </tr>
+</table>
